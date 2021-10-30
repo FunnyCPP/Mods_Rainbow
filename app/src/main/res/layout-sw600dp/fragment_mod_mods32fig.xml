@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/d_mods32fig"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_mods32fig"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="90dp"
+        android:background="@android:color/transparent"
+        android:clipToPadding="false"
+        android:paddingBottom="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/mod_cell_mods32fig" />
+
+    <LinearLayout
+        android:id="@+id/llinlay_mods32fig"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background_menu_1_mods32fig"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/txtMods_mods32fig"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/background_menu_mods_selected_mods32fig"
+            android:fontFamily="@font/montserrat_mods32fig"
+            android:gravity="bottom|center_horizontal|center_vertical"
+            android:text="@string/mods_mods32fig"
+            android:textColor="#009EFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtFavorites_mods32fig"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="200dp"
+            android:background="@drawable/background_menu_favorites_mods32fig"
+            android:gravity="center|center_vertical"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

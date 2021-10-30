@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/e_mods32fig"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp">
+
+    <ScrollView
+        android:id="@+id/r_mods32fig"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FFF"
+        tools:context=".activities.DetailActivity">
+
+        <RelativeLayout
+            android:id="@+id/t_mods32fig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="24sp">
+
+            <LinearLayout
+                android:id="@+id/y_mods32fig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <androidx.viewpager.widget.ViewPager
+                        android:id="@+id/pager_mods32fig"
+                        android:layout_width="match_parent"
+                        android:layout_height="180dp"
+                        android:layout_gravity="center">
+
+                    </androidx.viewpager.widget.ViewPager>
+
+                    <TextView
+                        android:id="@+id/txtDetailTitle_mods32fig"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="30dp"
+                        android:fontFamily="@font/montserrat_bold"
+                        android:text="TextView"
+                        android:textAllCaps="false"
+                        android:textColor="#009EFF"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDetailDesc_mods32fig"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="20dp"
+                        android:fontFamily="@font/roboto_mods32fig"
+                        android:text="TextView"
+                        android:textColor="#000"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnDownload_mods32fig"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/background_button_mods32fig"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/download_mods32fig"
+                    android:textAllCaps="false"
+                    android:textColor="#FFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/imgBtnAdd_mods32fig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="false"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="160dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/ic_add_mods32fig" />
+
+            <ImageButton
+                android:id="@+id/imgBack_mods32fig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_back_mods32fig" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

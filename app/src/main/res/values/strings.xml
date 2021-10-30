@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name_mods32fig">Mods</string>
+    <string name="mods_mods32fig">Mods</string>
+    <string name="favorites_mods32fig">Favorites</string>
+    <string name="loading_mods32fig">Loading</string>
+    <string name="download_mods32fig">Download</string>
+    <string name="downloading_mods32fig">Downloading</string>
+    <string name="install_mods32fig">Install</string>
+</resources>

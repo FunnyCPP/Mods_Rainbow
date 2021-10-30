@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/montserrat_mods32fig</item>
+        <item>@font/roboto_mods32fig</item>
+        <item>@font/roboto_mono_mods32fig</item>
+        <item>@font/roboto_mono_bold_mods32fig</item>
+        <item>@font/signika_negative_mods32fig</item>
+    </array>
+</resources>
